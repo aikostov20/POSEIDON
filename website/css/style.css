@@ -1,0 +1,77 @@
+body{
+    background-color: var(--BG);
+  }
+  .alphaHomePage
+  {
+      width: 100%;
+      height: 1000px;
+      border:3px red solid;
+      position: relative;
+      top:60px; 
+  }
+  .alphaHomePageLogo
+  {
+    width:300px;
+    height: 200px;
+    top: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    border:3px red solid;
+    text-align: center;
+    font-size: 3em;
+  }
+  .alphaHomePageText
+  {
+    width:400px;
+    height: 100px;
+    top: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    border:3px orange solid;
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  .Content
+  {
+    width:100%; 
+    height:1000px; 
+    border: 3px solid green;
+    transform:translateY(60px);
+   }
+  
+  div#carouselExampleIndicators{
+    width: 50%;
+    margin: 0 auto;
+    top:20%;
+  }
+  div.carousel-item img{
+    height: 600px!important;
+  }
+  
+  .carousel-control-next-icon
+  {
+    background-color: black;
+    border-radius: 45%;
+  }
+  
+  .carousel-control-prev-icon
+  {
+    background-color: black;
+    border-radius: 45%;
+  }
+  
+  #carouselExampleIndicators
+  {
+    box-shadow: 0 0 30px rgba(204, 204, 204, 0.7), 0 0 30px black;  
+   
+  }
+  button.carousel-control-prev i,
+  button.carousel-control-next i{
+    color: black;
+    background-color: white;
+    font-size: 35px;
+    border-radius: 50%;
+  }
