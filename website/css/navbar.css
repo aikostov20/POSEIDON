@@ -1,0 +1,26 @@
+nav.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 60px;
+    box-shadow: 0 0 30px black, 0 0 30px white;
+    z-index: 10000; 
+    background-color: rgba(204, 204, 204, 0.7)!important;
+}
+.navbar ul.navbar-nav{
+    position: absolute;
+    right: 43%;
+    font-size: 20px;
+}
+/*  Icons   */
+
+ul.navbar-nav li.colorMode div.open,
+ul.navbar-nav li.colorMode.active div.close{
+    display: block;
+}
+ul.navbar-nav li.colorMode div.close,
+ul.navbar-nav li.colorMode.active div.open{
+    display: none;
+}
