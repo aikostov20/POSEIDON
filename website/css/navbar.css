@@ -11,8 +11,14 @@ nav.navbar{
 }
 .navbar ul.navbar-nav{
     position: absolute;
-    right: 43%;
+    right: 40%;
     font-size: 20px;
+}
+.navbar a{
+    color: black!important;
+}
+.navbar ul li{
+    padding: 7px;
 }
 /*  Icons   */
 
