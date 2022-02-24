@@ -6,6 +6,7 @@ header ul{
 	overflow: hidden;
     box-shadow: 0 0 30px black, 0 0 30px white;
 	background-color: rgba(204, 204, 204, 0.7)!important;
+    z-index: 100;
 }
 header a, header a:hover,
 header i, header i:hover{
