@@ -9,11 +9,17 @@ header ul{
     z-index: 100;
 }
 header a, header a:hover,
+header img, header img:hover,
 header i, header i:hover{
     color: black;
     font-size: 20px;
     text-decoration: none;
     margin-left: 20px;
+}
+header a, header a:hover,
+header img, header img:hover,
+header i, header i:hover{
+    margin-left: 10px;
 }
 header ul li.navbarList,
 header ul li.navbarList div{
@@ -24,7 +30,13 @@ header ul div.leftNavbarList{
     top: 23%;
     right: 65px;
 }
-
+/*  Flags  */
+header ul li.leftNavbarList div img{
+    width:  25px;
+}
+header ul li.flagList div{
+    top: 10%!important;
+}
 /*  Icons   */
 header ul li.colorMode div.open,
 header ul li.colorMode.active div.close{
