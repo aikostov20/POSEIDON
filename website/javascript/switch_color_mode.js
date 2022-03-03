@@ -1,40 +1,35 @@
-let colorMode = document.querySelector('.colorMode');
-let colorModeLight = document.querySelector('.colorModeLight');
 let colorModeDark = document.querySelector('.colorModeDark');
+let colorModeLight = document.querySelector('.colorModeLight');
 
-let darkMode = localStorage.getItem("darkMode");
 
-const enableDarkMode = () => {
-    document.body.classList.add('dark');
-    colorModeDark.classList.add('close');
-    colorModeDark.classList.remove('open');
-    colorModeLight.classList.add('open');
-    colorModeLight.classList.remove('close');
-    localStorage.setItem("darkMode", "enabled");
+
+colorModeDark.onclick = function() {
+
+    localStorage.setItem("darkMode", 'disable');
+    check();
 }
 
-const disableDarkMode = () => {
-    document.body.classList.remove('dark');
-    colorModeDark.classList.remove('open');
-    colorModeDark.classList.add('close');
-    colorModeLight.classList.remove('close');
-    colorModeLight.classList.add('open');
-    localStorage.setItem("darkMode", null);
+colorModeLight.onclick = function() {
+
+    localStorage.setItem("darkMode", 'enable');
+    check();
 }
 
-if(darkMode === "enabled"){
-    enableDarkMode();
-}
 
-colorMode.onclick = function() {
-    colorMode.classList.toggle('active');
+check();
+
+function check(){
     darkMode = localStorage.getItem("darkMode");
-    if(darkMode != "enabled"){
-        enableDarkMode();
-        console.log("darkMode " + darkMode);
-    }
-    else{
-        disableDarkMode();
-        console.log("darkMode " + darkMode);
+   
+    if(darkMode === 'enable'){
+        document.body.classList.add('dark');
+
+        $('.colorModeDark').show();
+        $('.colorModeLight').hide();
+    } else {
+        document.body.classList.remove('dark');
+
+        $('.colorModeDark').hide();
+        $('.colorModeLight').show();
     }
 }

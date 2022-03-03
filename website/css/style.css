@@ -43,12 +43,12 @@ body{
    }
   
   div#carouselExampleIndicators{
-    width: 50%;
+    width: 62%;
     margin: 0 auto;
-    top:20%;
+    top: 15%;
   }
   div.carousel-item img{
-    height: 600px!important;
+    height: 700px!important;
   }
   
   .carousel-control-next-icon
