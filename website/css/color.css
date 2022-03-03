@@ -1,5 +1,6 @@
 body{
     --BG: #F6F1EB;
+    --text: #000;
 
     --scrollColor1: radial-gradient(rgba(102, 101, 101, 0.8), rgba(54, 54, 54, 0.3));
     --scrollColor2: radial-gradient(rgba(53, 52, 52,1), rgba(130, 134, 130, 1));
@@ -8,7 +9,8 @@ body{
 }
 body.dark{
     --BG: #273647;
-
+    --text: #fff;
+    
     --scrollColor1: radial-gradient(rgba(196, 196, 196, 0.8), rgba(119, 119, 119, 0.3));
     --scrollColor2: radial-gradient(rgb(175, 175, 175), rgb(174, 179, 174));
 }

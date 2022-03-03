@@ -5,36 +5,52 @@
     <!-- Navbar --><link rel="stylesheet" href="css/navbar.css"/>
     <!-- Colors --><link rel="stylesheet" href="css/color.css"/>
     <!-- Scroll Bar --><link rel="stylesheet" href="css/scroll_bar.css"/>
+    <!-- Switch Disasters--><link rel="stylesheet" href="css/switch_arrow_disasters.css"/>
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Logo --><link rel="icon" type="image/x-icon" href="../Images/Logo.png">
     
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
     <title>Poseidon</title>
 
 </head>
 <body id="mainbody">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
     <header>
-        <ul>
-            <li class="navbarList">
-                <a href="index.html#" class="navbarLink">Home</a>
+    <ul>
+        <li class="navbarList">
+            <a href="index.html#" class="navbarLink _tr_Home">Home</a>
+        </li>
+        <li class="navbarList">
+            <a href="index.html#Content" class="navbarLink _tr_Content">Content</a>
+        </li>
+        <li class="navbarList">
+            <a href="#" class="navbarLink _tr_AboutUs">About us</a>
+        </li>
+        <div class="leftNavbarList">
+            <li class="navbarList leftNavbarList">
+                <a href="" class="navbarLink _tr_Kid">Kid</a>
             </li>
-            <li class="navbarList">
-                <a href="index.html#Content" class="navbarLink">Content</a>
+            <li class="navbarList leftNavbarList ">
+                <div class="navbarLink flagLink"><img id="flagIMG" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" alt="UK Flag"></div>
+
             </li>
-            <li class="navbarList">
-                <a href="#" class="navbarLink">About us</a>
+            <li class="navbarList leftNavbarList">
+                <div class="colorModeDark nav-link open" style="padding: 0;"><i class="fas fa-sun"></i></div>
+                <div class="colorModeLight nav-link close" style="padding: 0;"><i class="fas fa-moon"></i></div>
             </li>
-            <div class="leftNavbarList">
-                <li class="navbarList leftNavbarList">
-                    <a href="" class="navbarLink">Kid</a>
-                </li>
-                <li class="navbarList leftNavbarList colorMode">
-                    <div class="colorModeDark nav-link open" style="padding: 0;"><i class="fas fa-moon"></i></div>
-                    <div class="colorModeLight nav-link close" style="padding: 0;"><i class="fas fa-sun"></i></div>
-                </li>
-            </div>
-          </ul>
-      </header>
+        </div>
+        </ul>
+    </header>
+    
+    <div class="switch_arrow_disasters">
+        <div class="right_switch_arrow_disasters"><a class="right_arrow" href="geophysical.html"><i class="fas fa-arrow-circle-right"></i></a></div>
+        <div class="left_switch_arrow_disasters"><a class="left_arrow" href="climatological.html"><i class="fas fa-arrow-circle-left"></i></a></div>
+    </div>
     
     <!-- Switch Mode --><script src="javascript/switch_color_mode.js"></script>
+    <!-- Switch Language --><script src="javascript/switch_language.js"></script>
     <!-- Bootstrap JS --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

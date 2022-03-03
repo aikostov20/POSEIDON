@@ -4,7 +4,7 @@ lang.bg = {
 	_tr_Home: 'Начало',
 	_tr_Content : 'Съдържание',
 	_tr_AboutUs : "За нас",
-	_tr_Kid : ""
+	_tr_Kid : "За деца"
 
 	
 };
