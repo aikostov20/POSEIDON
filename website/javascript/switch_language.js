@@ -13,7 +13,7 @@ lang.en = {
 	_tr_Home: 'Home',
 	_tr_Content : 'Content',
 	_tr_AboutUs : 'About us',
-	_tr_Kid : "Kid"
+	_tr_Kid : "For kids"
 };
 
 function translate(){
