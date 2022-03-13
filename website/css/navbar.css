@@ -32,7 +32,7 @@ header ul div.leftNavbarList{
 }
 /*  Flags  */
 header ul li.leftNavbarList div img{
-    width:  25px;
+    width: 25px;
 }
 header ul li.flagList div{
     top: 10%!important;
@@ -45,4 +45,17 @@ header ul li.colorMode.active div.close{
 header ul li.colorMode div.close,
 header ul li.colorMode.active div.open{
     display: none;
+}
+@media screen and (max-width: 1300px){
+    header ul{
+        padding: 20px;
+    }
+    header a, header a:hover,
+    header img, header img:hover,
+    header i, header i:hover{
+        font-size: 23px;
+    }
+    header ul li.leftNavbarList div img{
+        width: 30px;
+    }
 }
