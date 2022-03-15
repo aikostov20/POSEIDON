@@ -1,34 +1,36 @@
 body{
     background-color: var(--BG);
+    color: var(--text);
   }
-  .alphaHomePage
-  {
-      width: 100%;
-      height: 1000px;
-      border:3px red solid;
-      position: relative;
-      top:60px; 
-  }
-  .alphaHomePageLogo
-  {
-    width:300px;
-    height: 230px;
-    top: 20px;
-    margin: 0 auto;
+.alphaHomePage
+{
+    width: 100%;
+    height: 1000px;
+    border:3px red solid;
     position: relative;
-  }
-  .alphaHomePageText
-  {
-    width:400px;
-    height: 100px;
-    top: 20px;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative;
-    border:3px orange solid;
-    text-align: center;
-    font-size: 3em;
-  }
+    top:60px; 
+}
+.alphaHomePageLogo
+{
+  width:300px;
+  height: 230px;
+  top: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+.alphaHomePageText
+{
+  width:400px;
+  height: 100px;
+  top: 20px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  border:3px rgba(0, 0, 0, 0) solid;
+  background-color: rgb(50, 146, 163);
+  text-align: center;
+  font-size: 3em;
+}
 /*    Content    */
 .Content{
   width:100%; 
@@ -62,30 +64,46 @@ div.carousel-item img{
     background-color: white;
     font-size: 35px;
     border-radius: 50%;
-  }
-
-.Earthquake {
-
-  width:100%;
-  height:500px; 
-  border:red solid;
 }
 
-.Earthquake_pic
-{
-  width:50%; 
-  height:499px; 
-  border:solid orange; 
-  position: absolute;
+.carousel-item a h1{
+  background-size: 500px;
+  height: 700px!important;
+  zoom: normal  ;
+}
+/*    Blur        */
+.carousel-item{
+	position: relative;
+}
+.carousel-item:hover img{
+	filter: blur(8px);
+}
+.carousel-item a img {
+  display: block;
+  width: 100%;
 }
 
-.Earthquake_txt
-{
-  width:50%; 
-  height:499px; 
-  border:solid blueviolet; 
-  transform: translateX(100%);
-  position: absolute;
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.img-overlay:hover {
+    opacity: 1;
+}
+.img-overlay {
+    font-size: 2em;
+    font-weight: bold;
 }
 /*    About us    */
 .about-us{

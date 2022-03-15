@@ -10,7 +10,7 @@ lang.bg = {
 	_tr_Alexander_Kostov : "Александър Костов",
 	_tr_Georgi_Kotakov : "Георги Котаков",
 	_tr_Ivailo_Dimitrov : "Ивайло Димитров",
-	_tr_Dimitur_Iolodov : "Димитър Йолодов",
+	_tr_Dimitur_Yoldov : "Димитър Йолдов",
 
 	/*	Roles	*/
 	_tr_Scrum_Trainer : "Лидер",
@@ -29,7 +29,7 @@ lang.en = {
 	_tr_Alexander_Kostov : "Alexander Kostov",
 	_tr_Georgi_Kotakov : "Georgi Kotakov",
 	_tr_Ivailo_Dimitrov : "Ivailo Dimitrov",
-	_tr_Dimitur_Iolodov : "Dimitur Iolodov",
+	_tr_Dimitur_Yoldov : "Dimitur Yoldov",
 
 	/*	Roles	*/
 	_tr_Scrum_Trainer : "Scrum Trainer",
