@@ -7,6 +7,8 @@ body{
     height: 1000px;
     position: relative;
     top:60px; 
+    z-index: 1;
+
 }
 .alphaHomePage video{
   position: absolute;
@@ -20,7 +22,7 @@ body{
 {
   width:300px;
   height: 230px;
-  top: 200px;
+  top: 20%;
   margin: 0 auto;
   position: relative;
 }
@@ -32,19 +34,26 @@ body{
   margin: 0 auto;
   padding: 10px;
   position: relative;
-  border:3px rgba(0, 0, 0, 0) solid;
-  background-color: rgb(50, 146, 163);
+border:3px rgba(0, 0, 0, 0) solid;
+  background-color: rgba(50, 146, 163, 0.603);
   text-align: center;
   font-size: 3em;
+  border-radius:5px;
+  box-shadow:0 0 30px black;  
+  
 }
 /*    Content    */
 .Content{
+  margin-top:400px;
   width:100%; 
   height:1000px; 
   transform:translateY(60px);
   background-color: var(--BG);
+  z-index: -10;
+ 
 }
   
+
 div#carouselExampleIndicators{
   width: 62%;
   margin: 0 auto;
@@ -100,7 +109,7 @@ div.carousel-item img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 0;
+    opacity: 0.6;
     transition: 0.5s;
 }
 
@@ -110,6 +119,8 @@ div.carousel-item img{
 .img-overlay {
     font-size: 2em;
     font-weight: bold;
+    
+    
 }
 /*    About us    */
 .about-us{
@@ -136,6 +147,11 @@ div.carousel-item img{
   color: var(--text);
   font-size: 20px;
 }
+
+.user img
+{
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.7), 0 0 20px black;  
+}
 @media screen and (max-width: 1430px){
   
   .about-us .user{
@@ -155,3 +171,79 @@ div.carousel-item img{
     width: 300px;
   }
 }
+
+          .Earthquake_Section1
+          {
+            position: relative;
+            top:60px;
+          width:100%; 
+          border:solid blue 4px;
+          height:1000px;
+          }
+            .Earthquake_Section_txt
+            {
+              position: relative;
+              
+            width:40%; 
+            border:solid red 4px;
+            height:800px;
+            }
+
+        .Earthquake_Section_pic
+        { 
+          position: absolute;
+          right:0px;
+          top:0px;
+          width: 60%; 
+          border:solid rgb(179, 255, 0) 4px;
+          height:800px;
+
+        }
+
+        .Earthquake_Section_IF
+        {
+          left:0px;
+          position: relative;
+          width:100%; 
+          border:solid rgb(2, 1, 2) 4px;
+          height:190px;
+        }
+            
+        .Volcano_Section1
+          {
+            position: relative;
+          top:60px;
+          width:100%; 
+          border:solid rgb(80, 42, 7) 4px;
+          height:1000px;
+          }
+            .Volcano_Section_txt
+            {
+              position: absolute;
+              right:0px;
+              top:0px;
+            width:40%; 
+            border:solid red 4px;
+            height:800px;
+            }
+
+        .Volcano_Section_pic
+        { 
+          position: relative;
+          left:0px;
+          top:0px;
+          width: 60%; 
+          border:solid rgb(179, 255, 0) 4px;
+          height:800px;
+
+        }
+
+        .Volcano_Section_IF
+        {
+          left:0px;
+          
+          width:100%; 
+          border:solid rgb(2, 1, 2) 4px;
+          height:190px;
+        }
+        
