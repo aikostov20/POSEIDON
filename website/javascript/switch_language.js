@@ -20,8 +20,8 @@ lang.bg = {
 
 	/*	Roles	*/
 	_tr_Scrum_Trainer : "Лидер",
-	_tr_Backend_Developer : "Бекенд Разработчик",
-	_tr_Frontend_Developer : "Фронтенд Разработчик",
+	_tr_Backend_Developer : "Backend Разработчик",
+	_tr_Frontend_Developer : "Frontend Разработчик",
 	_tr_Designer : "Дизайнер"
 };
 
