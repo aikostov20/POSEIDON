@@ -9,7 +9,7 @@
 
   <!-- Logo --><link rel="icon" type="image/x-icon" href="../Images/Logo.png">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--  Responsive -->
   <meta charset="UTF-8">
 
   <title>Poseidon</title>
@@ -25,7 +25,7 @@
             <a href="index.html#Content" class="navbarLink _tr_Content">Content</a>
         </li>
         <li class="navbarList">
-            <a href="#" class="navbarLink _tr_AboutUs">About us</a>
+            <a href="index.html#About-us" class="navbarLink _tr_AboutUs">About us</a>
         </li>
         <div class="leftNavbarList">
             <li class="navbarList leftNavbarList">
@@ -44,49 +44,81 @@
   </header>
 
     <div class ="alphaHomePage" id="alphaHomePage">
-      <div class="alphaHomePageLogo"><span>Logo</span></div>
+      <div class="alphaHomePageLogo"><span><img src="../Images/Logo.png" width="300" alt=""></span></div>
       <div class="alphaHomePageText"><span>Text</span></div>
   </div>
 
-<div class = "Content" id="Content">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-indicators">
-		  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-		  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-		  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<div class="Content" id="Content">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-		</div>
-		<div class="carousel-inner">
+    </div>
+  
+  <div class="carousel-inner">
 
-		  <div class="carousel-item active">
-			  <a href="geophysical.html"><img src="../Images/normal_section/EarthquakeRealistic.jpg" class="d-block w-100" alt="..."></a>
-		  </div>
+    <div class="carousel-item active">
+      <a href="geophysical.html"><img src="../Images/normal_section/EarthquakeRealistic.jpg" class="d-block w-100"></a>
+    </div>
 
-		  <div class="carousel-item">
-			  <a href="hydrological.html"><img src="../Images/normal_section/FloodRealistic.jpg" class="d-block w-100" alt="..."></a>
-		  </div>
-      
-      <div class="carousel-item">
-        <a href="climatological.html"><img src="../Images/normal_section/DroughtRealistic.jpg" class="d-block w-100" alt="..."></a>
-      </div>
-
-      <div class="carousel-item">
-        <a href="meteorological.html"><img src="../Images/normal_section/CycloneRealistic.jpg" class="d-block w-100" alt="..."></a>
-      </div>
-
-		</div>
-
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-		  <i class="fas fa-arrow-alt-circle-left"></i>
-		  <span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-		  <i class="fas fa-arrow-alt-circle-right"></i>
-		  <span class="visually-hidden">Next</span>
-		</button>
-	  </div>
+    <div class="carousel-item">
+      <a href="hydrological.html"><img src="../Images/normal_section/FloodRealistic.jpg" class="d-block w-100"></a>
     </div>
     
+    <div class="carousel-item">
+      <a href="climatological.html"><img src="../Images/normal_section/DroughtRealistic.jpg" class="d-block w-100"></a>
+    </div>
+
+    <div class="carousel-item">
+      <a href="meteorological.html"><img src="../Images/normal_section/CycloneRealistic.jpg" class="d-block w-100"></a>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <i class="fas fa-arrow-alt-circle-left"></i>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <i class="fas fa-arrow-alt-circle-right"></i>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+  </div>
+</div>
+    
+<div class="about-us" id="About-us">
+  <div class="about-us-content">
+
+    <div class="user">
+      <img src="../Images/team/Georgi_Kotakov.jpg" alt="Alexander Kostov">
+      <h2 class="username _tr_Alexander_Kostov">Alexander Kostov</h2>
+      <h4 class="role _tr_Scrum_Trainer">Scrum Trainer</h4>
+    </div>
+
+    <div class="user">
+      <img src="../Images/team/Georgi_Kotakov.jpg" alt="Georgi Kotakov">
+      <h2 class="username _tr_Georgi_Kotakov">Georgi Kotakov</h2>
+      <h4 class="role _tr_Backend_Developer">Backend Developer</h4>
+    </div>
+
+    <div class="user">
+      <img src="../Images/team/Georgi_Kotakov.jpg" alt="Georgi Kotakov">
+      <h2 class="username _tr_Ivailo_Dimitrov">Ivailo Dimitrov</h2>
+      <h4 class="role _tr_Frontend_Developer">Frontend Developer</h4>
+    </div>
+
+    <div class="user">
+      <img src="../Images/team/Georgi_Kotakov.jpg" alt="Dimitur Iolodov">
+      <h2 class="username _tr_Dimitur_Iolodov">Dimitur Iolodov</h2>
+      <h4 class="role _tr_Designer">Designer</h4>
+    </div>
+  </div>
+</div>
+
     <!-- Switch Color Mode --><script src="javascript/switch_color_mode.js"></script>
     <!-- Switch Language --><script src="javascript/switch_language.js"></script>
     <!-- Bootstrap JS --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

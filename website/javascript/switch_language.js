@@ -4,16 +4,38 @@ lang.bg = {
 	_tr_Home: 'Начало',
 	_tr_Content : 'Съдържание',
 	_tr_AboutUs : "За нас",
-	_tr_Kid : "За деца"
-
+	_tr_Kid : "За деца",
 	
+	/*	Names	*/
+	_tr_Alexander_Kostov : "Александър Костов",
+	_tr_Georgi_Kotakov : "Георги Котаков",
+	_tr_Ivailo_Dimitrov : "Ивайло Димитров",
+	_tr_Dimitur_Iolodov : "Димитър Йолодов",
+
+	/*	Roles	*/
+	_tr_Scrum_Trainer : "Лидер",
+	_tr_Backend_Developer : "Бекенд Разработчик",
+	_tr_Frontend_Developer : "Фронтенд Разработчик",
+	_tr_Designer : "Дизайнер"
 };
 
 lang.en = {
 	_tr_Home: 'Home',
 	_tr_Content : 'Content',
 	_tr_AboutUs : 'About us',
-	_tr_Kid : "For kids"
+	_tr_Kid : "For kids",
+
+	/*	 Names	*/
+	_tr_Alexander_Kostov : "Alexander Kostov",
+	_tr_Georgi_Kotakov : "Georgi Kotakov",
+	_tr_Ivailo_Dimitrov : "Ivailo Dimitrov",
+	_tr_Dimitur_Iolodov : "Dimitur Iolodov",
+
+	/*	Roles	*/
+	_tr_Scrum_Trainer : "Scrum Trainer",
+	_tr_Backend_Developer : "Backend Developer",
+	_tr_Frontend_Developer : "Frontend Developer",
+	_tr_Designer : "Designer"
 };
 
 function translate(){
