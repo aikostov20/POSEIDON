@@ -5,6 +5,12 @@ lang.bg = {
 	_tr_Content : 'Съдържание',
 	_tr_AboutUs : "За нас",
 	_tr_Kid : "За деца",
+
+	/*	Carousel overlay text	*/
+	_tr_Carousel_geophysical: "Геофизични",
+	_tr_Carousel_hydrological: "Хидрологични",
+	_tr_Carousel_climatological: "Климатологични",
+	_tr_Carousel_meteorological: "Метеорологични",
 	
 	/*	Names	*/
 	_tr_Alexander_Kostov : "Александър Костов",
@@ -25,6 +31,12 @@ lang.en = {
 	_tr_AboutUs : 'About us',
 	_tr_Kid : "For kids",
 
+	/*	Carousel overlay text	*/
+	_tr_Carousel_geophysical: "Geophysical",
+	_tr_Carousel_hydrological: "Hydrological",
+	_tr_Carousel_climatological: "Climatological",
+	_tr_Carousel_meteorological: "Meteorological",
+	
 	/*	 Names	*/
 	_tr_Alexander_Kostov : "Alexander Kostov",
 	_tr_Georgi_Kotakov : "Georgi Kotakov",
