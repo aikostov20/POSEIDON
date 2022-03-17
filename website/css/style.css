@@ -72,7 +72,8 @@ div.carousel-item img{
   
 #carouselExampleIndicators
 {
-  box-shadow: 0 0 30px rgba(204, 204, 204, 0.7), 0 0 30px black;  
+  box-shadow: 5px 5px 30px rgba(204, 204, 204, 0.7), 5px 5px 30px black;  
+
 }
   button.carousel-control-prev i,
   button.carousel-control-next i{
@@ -150,7 +151,7 @@ div.carousel-item img{
 
 .user img
 {
-  box-shadow: 0 0 20px rgba(204, 204, 204, 0.7), 0 0 20px black;  
+  box-shadow: 5px 5px 20px rgba(204, 204, 204, 0.7), 5px 5px 20px black;  
 }
 @media screen and (max-width: 1430px){
   
@@ -175,9 +176,9 @@ div.carousel-item img{
           .Earthquake_Section1
           {
             position: relative;
-            top:60px;
+            top:140px;
           width:100%; 
-          border:solid blue 4px;
+         
           height:1000px;
           }
             .Earthquake_Section_txt
@@ -185,8 +186,9 @@ div.carousel-item img{
               position: relative;
               
             width:40%; 
-            border:solid red 4px;
             height:800px;
+            font-size:1.68em; 
+            padding:10px; 
             }
 
         .Earthquake_Section_pic
@@ -195,7 +197,7 @@ div.carousel-item img{
           right:0px;
           top:0px;
           width: 60%; 
-          border:solid rgb(179, 255, 0) 4px;
+        
           height:800px;
 
         }
@@ -205,14 +207,16 @@ div.carousel-item img{
           left:0px;
           position: relative;
           width:100%; 
-          border:solid rgb(2, 1, 2) 4px;
+         
           height:190px;
+          padding:10px; 
+          font-size:1.45em; 
         }
             
         .Volcano_Section1
           {
             position: relative;
-          top:60px;
+          top:160px;
           width:100%; 
           border:solid rgb(80, 42, 7) 4px;
           height:1000px;
@@ -247,3 +251,19 @@ div.carousel-item img{
           height:190px;
         }
         
+        .Geophysical_page_heading
+        {
+          top:80px; 
+          position: relative;
+          width: 100%;
+          text-shadow: 2px 2px 1px rgba(204, 204, 204, 0.7), 1px 1px 1px black;  
+ 
+          text-align: center;
+     
+        }
+        .Geophysical_page_heading_2{
+          top:85px; 
+          position: relative;
+          width: 100%;
+          text-align: center;
+    }
