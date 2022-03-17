@@ -1,5 +1,5 @@
 div.geophysical{
-    padding-top: 50px;
+     padding-top:10px;
     width:100%;
 }
 div.hydrological{
@@ -7,6 +7,7 @@ div.hydrological{
     width:100%;
 }
 div.meteorological{
+    padding-top: 300px;
     width:100%;
 }
 div.climatological{
@@ -19,19 +20,19 @@ div.meteorological div,
 div.climatological div{
     display: inline-block;
     position: relative;
-    width: 350px;
+    width: 400px;
 }
 div.geophysical div{
-    right: -50px;
+    right: -3%;
 }
 div.hydrological div{
-    right: -22%;
+    right: -3%;
 }
 div.meteorological div{
     right: -3%;
 }
 div.climatological div{
-    right: -13%;
+    right: -3%;
 }
 div.geophysical div,
 div.geophysical div img,
@@ -41,16 +42,17 @@ div.meteorological div,
 div.meteorological div img,
 div.climatological div,
 div.climatological div img{
-    height: 300px!important;
+    height: 250px!important;
     max-width: 400px;
     position: relative;
+    padding: 10px; 
 }
 .geophysical-item,
 .hydrological-item,
 .meteorological-item,
 .climatological-item{
     position: relative;
-    height: 300px!important;
+    height: 250px!important;
     width: 400px;
     overflow: hidden;
 }
@@ -58,30 +60,29 @@ div.climatological div img{
 .hydrological-item span,
 .meteorological-item span,
 .climatological-item span{
-    position: absolute;
-    font-size: 2em;
+    position: relative;
+    font-size: 0.9em;
     font-weight: bold;
 }
 .geophysical-item:hover img,
 .hydrological-item:hover img,
 .meteorological-item:hover img,
 .climatological-item:hover img{
-    filter: blur(8px);
+    filter: blur(5px);
 }
 .geophysical-item a img,
 .hydrological-item a img,
 .meteorological-item a img,
 .climatological-item a img{
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .img-overlay-geophysical,
 .img-overlay-hydrological,
 .img-overlay-meteorological,
 .img-overlay-climatological{
-    position: absolute;
-    top: -300px;
-    left: 0;
+    position: relative;
+    top: -50%;
     width: 100%;
     height: 100%;
     color: #ffffff;
@@ -91,6 +92,7 @@ div.climatological div img{
     justify-content: center;
     opacity: 0;
     transition: 0.5s;
+    text-align: center;
 }
 
 .img-overlay-geophysical:hover,
@@ -103,6 +105,15 @@ div.climatological div img{
 .img-overlay-hydrological,
 .img-overlay-meteorological,
 .img-overlay-climatological{
-    font-size: 6px;
+    font-size:1.3em;
+    font-weight: bold;
+}
+
+.geophysical-item span,
+.hydrological-item span,
+.meteorological-item span,
+.climatological-item span{
+    position: relative;
+    font-size: 0.9em;
     font-weight: bold;
 }

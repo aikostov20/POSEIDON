@@ -111,7 +111,7 @@ div.carousel-item img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    opacity: 0;
+    opacity: 0.7;
     transition: 0.5s;
 }
 
@@ -161,6 +161,7 @@ div.carousel-item img{
   }
 }
 @media screen and (max-width: 1300px){
+
   div#carouselExampleIndicators{
     width: 100%;
   }
@@ -171,5 +172,6 @@ div.carousel-item img{
 @media screen and (max-width: 720px){
   .about-us .user{
     width: 300px;
+ 
   }
 }
