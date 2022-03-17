@@ -23,6 +23,7 @@ lang.bg = {
 	_tr_Backend_Developer : "Backend Разработчик",
 	_tr_Frontend_Developer : "Frontend Разработчик",
 	_tr_Designer : "Дизайнер",
+	
 	_tr_Earthquake_pr1 : "Земетресението се случва, когато два земни блока внезапно се приплъзнат един след друг. Повърхността, по която те се приплъзват, се нарича разлом или разломна плоскост. Мястото под земната повърхност, където започва земетресението, се нарича хипоцентър, а мястото точно над него на земната повърхност се нарича епицентър.Понякога земетресението има предварителен трус. Това са по-малки земетресения, които се случват на същото място, на което се случва по-голямото земетресение, което следва. Учените не могат да разберат, че земетресението е предварителен трус, докато не се случи по-голямото земетресение. Най-голямото, основно земетресение се нарича основен трус. Основните трусове винаги имат последващи трусове. Това са по-малки земетресения, които се случват след това на същото място като главния трус. В зависимост от размера на главния трус вторичните трусове могат да продължат седмици, месеци и дори години след главния трус!",
 
 	_tr_Earthquake_pr2 : "Земята има четири основни слоя: вътрешно ядро, външно ядро, мантия и кора. Кората и горната част на мантията образуват тънка кожа на повърхността на нашата планета.Но тази кожа не е цяла - тя е съставена от много парчета като пъзел, покриващ повърхността на Земята. Не само това, но тези парчета от пъзела се движат бавно, плъзгат се едно покрай друго и се блъскат едно в друго. Наричаме тези парчета пъзел тектонски плочи, а ръбовете на плочите се наричат граници на плочите. Границите на плочите се състоят от множество разломи и повечето земетресения по света се случват на тези разломи. Тъй като ръбовете на плочите са груби, те се заклещват, докато останалата част от плочата продължава да се движи. Накрая, когато плочата се придвижи достатъчно, краищата се разлепват върху някой от разломите и се случва земетресение.", 
@@ -47,9 +48,28 @@ lang.bg = {
 
 	_tr_Flood_pr4 : "Наводнението в Джонстаун (на местен език Голямото наводнение от 1889 г.) се случва в петък, 31 май 1889 г., след катастрофална авария на язовирната стена South Fork, разположена на южното разклонение на река Литъл Конемо, на 14 мили (23 км) нагоре по течението от град Джонстаун, Пенсилвания. Язовирната стена се скъсва след няколко дни на изключително силни валежи, като изпуска 14,55 млн. куб. м вода. С обемен дебит, който временно се изравнява със средния дебит на река Мисисипи, наводнението убива 2209 души[6] и причинява щети за 17 милиона долара (около 490 милиона долара в долари за 2020 г.).Американският Червен кръст, начело с Клара Бартън и с 50 доброволци, предприема мащабни усилия за оказване на помощ при бедствие. подкрепа за пострадалите идва от всички краища на САЩ и 18 чужди държави. След наводнението оцелелите претърпяват поредица от правни поражения в опитите си да възстановят щетите от собствениците на язовира. Общественото възмущение от този неуспех предизвиква развитието на американското право, което променя режима, основан на вината, в режим на строга отговорност.",
 
+	/*	Subtopics	*/
+	_tr_Geophysical_Earthquake: "Earthquake",
+	_tr_Geophysical_Landslides: "Landslides",
+	_tr_Geophysical_Sinkholes: "Sinkholes",
+	_tr_Geophysical_Volcanic_Activity: "Volcanic Activity",
+	_tr_Geophysical_Dust_Storms: "Dust Storms",
 
+	_tr_Hydrological_Floods: "Floods",
+	_tr_Hydrologicall_Limnic_Eruptions: "Limnic eruptions",
+	_tr_Hydrological_Tsunamis: "Tsunamis",
 
+	_tr_Climatological_Ice_Storm: "Ice Storm",
+	_tr_Climatologicall_Cold_Waves: "Cold Waves",
+	_tr_Climatological_Heat_Waves: "Heat Waves",
+	_tr_Climatological_Drought: "Drought",
 
+	_tr_Meteorological_Blizzard: "Blizzard",
+	_tr_Meteorological_Tropical_Cyclone: "Tropical Cyclone",
+	_tr_Meteorological_Hailstorm: "Hailstorm",
+	_tr_Meteorological_Thunderstorm: "Thunderstorm",
+	_tr_Meteorological_Tornado: "Tornado",
+	_tr_Meteorological_Fire_Storm: "Fire Storm",
 	
 };
 
@@ -98,17 +118,30 @@ lang.en = {
 
 	_tr_Flood_pr3 : "Floods affect both individuals and communities and have social, economic and environmental consequences. The consequences of flooding, whether negative or positive, depend significantly on the location and extent of the flood, and the vulnerability and value of the natural and built environment it affects.As we are all well aware, the consequences of flooding include loss of life, damage to property, destruction of crops, loss of livestock and deterioration of health due to water-borne diseases. With floods, communication links and infrastructure such as power stations, roads and bridges are damaged and disrupted, for this reason some economic activities may come to a halt, people are forced to leave their homes and normal life is disrupted.Similarly, disruption of industry can lead to loss of livelihood. All this damage to infrastructure can also lead to disruptions in clean water, wastewater treatment, electricity, transportation, communication, education and health care. Loss of livelihoods, and reduced purchasing power can make communities economically vulnerable.Floods can also cause and traumatize flood victims and their families for long periods of time. The loss of loved ones has profound effects, especially on children.  For many, the psychological impacts can be long-lasting.",
 
-	_tr_Flood_pr4 : "The Johnstown Flood (locally known as the Great Flood of 1889) occurred on Friday, May 31, 1889, following a catastrophic failure of the South Fork Dam, located on the south fork of the Little Conemaugh River, 14 miles (23 km) upstream from the town of Johnstown, Pennsylvania. The dam broke after several days of exceptionally heavy rainfall, releasing 14.55 million cubic meters of water. With a volumetric flow that temporarily equaled the average flow of the Mississippi River, the flood killed 2,209 people and caused $17 million in damages (about $490 million in 2020 dollars).The American Red Cross, headed by Clara Barton and with 50 volunteers, undertakes a massive disaster relief effort. support for the victims comes from all over the United States and 18 foreign countries. After the flood, survivors suffered a series of legal defeats in their attempts to recover damages from the dam owners. Public outrage at this failure sparked a development in American law that changed the fault-based regime to one of strict liability."
+	_tr_Flood_pr4 : "The Johnstown Flood (locally known as the Great Flood of 1889) occurred on Friday, May 31, 1889, following a catastrophic failure of the South Fork Dam, located on the south fork of the Little Conemaugh River, 14 miles (23 km) upstream from the town of Johnstown, Pennsylvania. The dam broke after several days of exceptionally heavy rainfall, releasing 14.55 million cubic meters of water. With a volumetric flow that temporarily equaled the average flow of the Mississippi River, the flood killed 2,209 people and caused $17 million in damages (about $490 million in 2020 dollars).The American Red Cross, headed by Clara Barton and with 50 volunteers, undertakes a massive disaster relief effort. support for the victims comes from all over the United States and 18 foreign countries. After the flood, survivors suffered a series of legal defeats in their attempts to recover damages from the dam owners. Public outrage at this failure sparked a development in American law that changed the fault-based regime to one of strict liability.",
 
+	/*	Subtopics	*/
+	_tr_Geophysical_Earthquake: "Earthquake",
+	_tr_Geophysical_Landslides: "Landslides",
+	_tr_Geophysical_Sinkholes: "Sinkholes",
+	_tr_Geophysical_Volcanic_Activity: "Volcanic Activity",
+	_tr_Geophysical_Dust_Storms: "Dust Storms",
 
+	_tr_Hydrological_Floods: "Floods",
+	_tr_Hydrologicall_Limnic_Eruptions: "Limnic eruptions",
+	_tr_Hydrological_Tsunamis: "Tsunamis",
 
+	_tr_Climatological_Ice_Storm: "Ice Storm",
+	_tr_Climatologicall_Cold_Waves: "Cold Waves",
+	_tr_Climatological_Heat_Waves: "Heat Waves",
+	_tr_Climatological_Drought: "Drought",
 
-
-
-
-	
-
-
+	_tr_Meteorological_Blizzard: "Blizzard",
+	_tr_Meteorological_Tropical_Cyclone: "Tropical Cyclone",
+	_tr_Meteorological_Hailstorm: "Hailstorm",
+	_tr_Meteorological_Thunderstorm: "Thunderstorm",
+	_tr_Meteorological_Tornado: "Tornado",
+	_tr_Meteorological_Fire_Storm: "Fire Storm",
 };
 
 function translate(){

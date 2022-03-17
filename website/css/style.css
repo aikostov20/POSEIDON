@@ -50,7 +50,6 @@ border:3px rgba(0, 0, 0, 0) solid;
   transform:translateY(60px);
   background-color: var(--BG);
   z-index: -10;
- 
 }
   
 
@@ -88,6 +87,8 @@ div.carousel-item img{
   height: 700px!important;
   zoom: normal  ;
 }
+/*  Subtopic  */
+
 /*    Blur        */
 .carousel-item{
 	position: relative;
@@ -172,98 +173,3 @@ div.carousel-item img{
     width: 300px;
   }
 }
-
-          .Earthquake_Section1
-          {
-            position: relative;
-            top:140px;
-          width:100%; 
-         
-          height:1000px;
-          }
-            .Earthquake_Section_txt
-            {
-              position: relative;
-              
-            width:40%; 
-            height:800px;
-            font-size:1.68em; 
-            padding:10px; 
-            }
-
-        .Earthquake_Section_pic
-        { 
-          position: absolute;
-          right:0px;
-          top:0px;
-          width: 60%; 
-        
-          height:800px;
-
-        }
-
-        .Earthquake_Section_IF
-        {
-          left:0px;
-          position: relative;
-          width:100%; 
-         
-          height:190px;
-          padding:10px; 
-          font-size:1.45em; 
-        }
-            
-        .Volcano_Section1
-          {
-            position: relative;
-          top:160px;
-          width:100%; 
-          border:solid rgb(80, 42, 7) 4px;
-          height:1000px;
-          }
-            .Volcano_Section_txt
-            {
-              position: absolute;
-              right:0px;
-              top:0px;
-            width:40%; 
-            border:solid red 4px;
-            height:800px;
-            }
-
-        .Volcano_Section_pic
-        { 
-          position: relative;
-          left:0px;
-          top:0px;
-          width: 60%; 
-          border:solid rgb(179, 255, 0) 4px;
-          height:800px;
-
-        }
-
-        .Volcano_Section_IF
-        {
-          left:0px;
-          
-          width:100%; 
-          border:solid rgb(2, 1, 2) 4px;
-          height:190px;
-        }
-        
-        .Geophysical_page_heading
-        {
-          top:80px; 
-          position: relative;
-          width: 100%;
-          text-shadow: 2px 2px 1px rgba(204, 204, 204, 0.7), 1px 1px 1px black;  
- 
-          text-align: center;
-     
-        }
-        .Geophysical_page_heading_2{
-          top:85px; 
-          position: relative;
-          width: 100%;
-          text-align: center;
-    }
