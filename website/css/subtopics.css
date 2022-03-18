@@ -1,119 +1,43 @@
-div.geophysical{
-     padding-top:10px;
+.geophysical
+{
     width:100%;
+    height: 800px; 
+    border:solid red; 
+    transform:translateY(80px);
+    display: flex; 
+    flex-wrap:wrap; 
+    flex-flow: row column ;
+     align-items: center;
+     gap:20px; 
+     padding: 100px;
 }
-div.hydrological{
-    padding-top: 300px;
-    width:100%;
-}
-div.meteorological{
-    padding-top: 300px;
-    width:100%;
-}
-div.climatological{
-    padding-top: 300px;
-    width:100%;
-}
-div.geophysical div,
-div.hydrological div,
-div.meteorological div,
-div.climatological div{
+.geophysical-item
+{
+    position: relative;
     display: inline-block;
-    position: relative;
-    width: 400px;
-}
-div.geophysical div{
-    right: -3%;
-}
-div.hydrological div{
-    right: -3%;
-}
-div.meteorological div{
-    right: -3%;
-}
-div.climatological div{
-    right: -3%;
-}
-div.geophysical div,
-div.geophysical div img,
-div.hydrological div,
-div.hydrological div img,
-div.meteorological div,
-div.meteorological div img,
-div.climatological div,
-div.climatological div img{
-    height: 250px!important;
-    max-width: 400px;
-    position: relative;
-    padding: 10px; 
-}
-.geophysical-item,
-.hydrological-item,
-.meteorological-item,
-.climatological-item{
-    position: relative;
-    height: 250px!important;
-    width: 400px;
-    overflow: hidden;
-}
-.geophysical-item span,
-.hydrological-item span,
-.meteorological-item span,
-.climatological-item span{
-    position: relative;
-    font-size: 0.9em;
-    font-weight: bold;
-}
-.geophysical-item:hover img,
-.hydrological-item:hover img,
-.meteorological-item:hover img,
-.climatological-item:hover img{
-    filter: blur(5px);
-}
-.geophysical-item a img,
-.hydrological-item a img,
-.meteorological-item a img,
-.climatological-item a img{
-    transition: 0.5s;
-}
-
-.img-overlay-geophysical,
-.img-overlay-hydrological,
-.img-overlay-meteorological,
-.img-overlay-climatological{
-    position: relative;
-    top: -50%;
-    width: 100%;
-    height: 100%;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: 0.5s;
+	width:350px;
+    height:200px;
     text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    font-size: 3em;
+    align-self:baseline ;
+    justify-content: space-around space-evenly;
+
+}
+.geophysical-item-txt
+{
+    padding-top:10px;
+    width:350px;
+    height:200px;
+    opacity:0.5; 
 }
 
-.img-overlay-geophysical:hover,
-.img-overlay-hydrological:hover,
-.img-overlay-meteorological:hover,
-.img-overlay-climatological:hover{
-    opacity: 1;
-}
-.img-overlay-geophysical,
-.img-overlay-hydrological,
-.img-overlay-meteorological,
-.img-overlay-climatological{
-    font-size:1.3em;
-    font-weight: bold;
-}
-
-.geophysical-item span,
-.hydrological-item span,
-.meteorological-item span,
-.climatological-item span{
-    position: relative;
-    font-size: 0.9em;
-    font-weight: bold;
+.geophysical-item-txt:hover
+{
+    opacity:1;
+   
+    backdrop-filter: blur(20px);
+    box-shadow: 5px 5px 10px black;
 }
