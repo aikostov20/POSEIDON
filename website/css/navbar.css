@@ -15,6 +15,7 @@ header i, header i:hover{
     font-size: 20px;
     text-decoration: none;
     margin-left: 20px;
+    
 }
 header a, header a:hover,
 header img, header img:hover,
@@ -24,6 +25,7 @@ header i, header i:hover{
 header ul li.navbarList,
 header ul li.navbarList div{
     display: inline;
+    
 }
 header ul div.leftNavbarList{
     position: absolute;
@@ -32,7 +34,8 @@ header ul div.leftNavbarList{
 }
 /*  Flags  */
 header ul li.leftNavbarList div img{
-    width: 25px;
+    width: 32px;
+    padding:0.5px;
 }
 header ul li.flagList div{
     top: 10%!important;
@@ -56,6 +59,18 @@ header ul li.colorMode.active div.open{
         font-size: 23px;
     }
     header ul li.leftNavbarList div img{
-        width: 30px;
+        width: 32px;
     }
+}
+
+header:hover  ul:hover  li.navbarList:hover ,
+header:hover  ul:hover  li.navbarList:hover  div:hover {
+    display: inline;
+    
+}
+
+.RightNavbarList:hover
+{
+    text-shadow: 0px 0px 5px #fff, 0px 0px 10px rgb(8, 8, 8),0px 0px 15px black;
+   
 }
