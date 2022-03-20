@@ -78,33 +78,30 @@ lang.bg = {
 
 	_tr_Thunderstorms_pr3 : "В историята на човечеството е имало много огромни и опасни гръмотевични бури, но най-голямата от тях е регистрирана в Индия на 1 декември 2014 г. Това е гръмотевичната буря с най-високо напрежение, регистрирано някога - 1,3 милиарда волта." ,
 
-	
-
-
-
 
 	/*	Subtopics	*/
-	_tr_Geophysical_Earthquake: "Earthquake",
-	_tr_Geophysical_Landslides: "Landslides",
-	_tr_Geophysical_Sinkholes: "Sinkholes",
-	_tr_Geophysical_Volcanic_Activity: "Volcanic Activity",
-	_tr_Geophysical_Dust_Storms: "Dust Storms",
+	_tr_Geophysical_Earthquake: "Земетресение",
+	_tr_Geophysical_Landslides: "Свлачища",
+	_tr_Geophysical_Sinkholes: "Дупки",
+	_tr_Geophysical_Volcanic: "Вулканичен",
+	_tr_Geophysical_Avalanche: "Лавина",
 
-	_tr_Hydrological_Floods: "Floods",
-	_tr_Hydrologicall_Limnic_Eruptions: "Limnic eruptions",
-	_tr_Hydrological_Tsunamis: "Tsunamis",
+	_tr_Hydrological_Floods: "Наводнения",
+	_tr_Hydrologicall_Limnic_Eruptions: "Лимнически изригвания",
+	_tr_Hydrological_Tsunamis: "Цунами",
 
-	_tr_Climatological_Ice_Storm: "Ice Storm",
-	_tr_Climatologicall_Cold_Waves: "Cold Waves",
-	_tr_Climatological_Heat_Waves: "Heat Waves",
-	_tr_Climatological_Drought: "Drought",
+	_tr_Climatological_Ice_Storm: "Ледена буря",
+	_tr_Climatologicall_Cold_Waves: "Студени вълни",
+	_tr_Climatological_Heat_Waves: "Горещи вълни",
+	_tr_Climatological_Drought: "Суша",
 
-	_tr_Meteorological_Blizzard: "Blizzard",
-	_tr_Meteorological_Tropical_Cyclone: "Tropical Cyclone",
-	_tr_Meteorological_Hailstorm: "Hailstorm",
-	_tr_Meteorological_Thunderstorm: "Thunderstorm",
-	_tr_Meteorological_Tornado: "Tornado",
-	_tr_Meteorological_Fire_Storm: "Fire Storm",
+	_tr_Meteorological_Blizzard: "Виелица",
+	_tr_Meteorological_Cyclone: "Циклон",
+	_tr_Meteorological_Hailstorm: "Буря с градушка",
+	_tr_Meteorological_Thunderstorm: "Гръмотевична буря",
+	_tr_Meteorological_Tornado: "Торнадо",
+	_tr_Meteorological_Fire_Storm: "Огнена буря",
+	_tr_Meteorological_Dust_Storm: "Пясъчна буря"
 	
 };
 
@@ -186,16 +183,12 @@ lang.en = {
 	_tr_Thunderstorms_pr3 : "Throughout human history, there were many huge and dangerous thunderstorms, but the biggest one recorded was in India, and it occurred on December 1st, 2014. It was the highest voltage thunderstorm ever recorded, with 1.3 billion volts", 
 
 
-
-
-
-
 	/*	Subtopics	*/
 	_tr_Geophysical_Earthquake: "Earthquake",
 	_tr_Geophysical_Landslides: "Landslides",
 	_tr_Geophysical_Sinkholes: "Sinkholes",
-	_tr_Geophysical_Volcanic_Activity: "Volcanic Activity",
-	_tr_Geophysical_Dust_Storms: "Dust Storms",
+	_tr_Geophysical_Volcanic: "Volcanic",
+	_tr_Geophysical_Avalanche: "Avalanche",
 
 	_tr_Hydrological_Floods: "Floods",
 	_tr_Hydrologicall_Limnic_Eruptions: "Limnic eruptions",
@@ -207,11 +200,12 @@ lang.en = {
 	_tr_Climatological_Drought: "Drought",
 
 	_tr_Meteorological_Blizzard: "Blizzard",
-	_tr_Meteorological_Tropical_Cyclone: "Tropical Cyclone",
+	_tr_Meteorological_Cyclone: "Cyclone",
 	_tr_Meteorological_Hailstorm: "Hailstorm",
 	_tr_Meteorological_Thunderstorm: "Thunderstorm",
 	_tr_Meteorological_Tornado: "Tornado",
 	_tr_Meteorological_Fire_Storm: "Fire Storm",
+	_tr_Meteorological_Dust_Storm: "Dust Storm"
 };
 
 function translate(){
