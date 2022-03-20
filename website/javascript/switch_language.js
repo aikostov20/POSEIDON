@@ -72,6 +72,14 @@ lang.bg = {
 	
 	_tr_HeatWaves_pr3 : "По време  на  топлинни вълна избягвайте да вършите тежка работа.Обличайте се с  леки, светли дрехи.Яжте леки храни ,за да не се увеличава  топлината на тялото. Опитайте  се  да приемате повече  вода.Опитайте се да не излизате и да стоите на прохладно  място. ",
 
+	_tr_Thunderstorms_pr1 : "Гръмотевичната буря е буря със светкавици и гръмотевици. Тя се създава от купесто-дъждовни облаци и обикновено предизвиква поривисти ветрове, проливен дъжд и понякога градушка.",
+
+	_tr_Thunderstorms_pr2 : "За да се образува гръмотевична буря трябва да има следните неща: влага, нестабилен въздух, който трябва да бъде сравнително топъл и да се издига бързо. И накрая, трябва да има подем. Той може да се образува от фронтове, морски бриз или планини.",
+
+	_tr_Thunderstorms_pr3 : "В историята на човечеството е имало много огромни и опасни гръмотевични бури, но най-голямата от тях е регистрирана в Индия на 1 декември 2014 г. Това е гръмотевичната буря с най-високо напрежение, регистрирано някога - 1,3 милиарда волта." ,
+
+	
+
 
 
 
@@ -170,6 +178,14 @@ lang.en = {
 	_tr_HeatWaves_pr2 : "Heat waves form as a result of trapped air. This air simply stays in place and is heated like the air in an oven.This is due to high pressure systems. These high pressure systems push the air down. This force prevents air from rising near the ground. The sinking air acts like a cap. It traps the warm ground air in place. Since there is no rising air, consequently there will be no rain and nothing to prevent the hot air from becoming even hotter.",
 
 	_tr_HeatWaves_pr3 : "Avoid doing heavy work during a heat wave.Dress in light, light clothing.Eat light foods to avoid increasing body heat. Try to take more water.Try not to go out and stay in a cool place.", 
+
+	_tr_Thunderstorms_pr1 : "A thunderstorm is a storm with lightning and thunder. Its produced by a cumulonimbus cloud, usually producing gusty winds, heavy rain and sometimes hail.",
+
+	_tr_Thunderstorms_pr2 : "For a thunderstorm to form the following conditions must be present: moisture, unstable air that must be relatively warm and rising quickly. Finally, there must be a updraft. It can be formed by fronts, sea breezes or mountains.",
+
+	_tr_Thunderstorms_pr3 : "Throughout human history, there were many huge and dangerous thunderstorms, but the biggest one recorded was in India, and it occurred on December 1st, 2014. It was the highest voltage thunderstorm ever recorded, with 1.3 billion volts", 
+
+
 
 
 
