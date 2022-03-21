@@ -14,19 +14,23 @@
    <p align = "center">
   <p align = "center" style:"font-size:4em">
   </p>
-  <h1>💻 About  </h1>
+  <h1>📄 About  </h1>
   <p>
    Our project consists of a site that aims to help its users by providing them with up-to-date information on the natural disasters. 
   </p>
     <hr/>
-  
-  <li>👨‍💻 Back end - Local Storage: </li>
-    <ul>
-    <li>We use localStorage so the users choice be the same every time the user visits the site.</li>
-   </ul>
-    <hr/>
+    
+## 👨‍💻 Team Members
+* **Aleksander Kostov** - *Scrum trainer* 
+* **Ivailo Dimitrov** - *Front-end developer* 
+* **Georgy Kotakov** - *Back-end developer* 
+* **Dimitar Yoldov** - *Designer* 
+
+  <hr/>
+  <li>💻 Back end - Local Storage: We use localStorage so the users choice be the same every time the user visits the site.</li>
+    <br/>
       
-  <li>👨‍💻 Front end: </li>
+  <li>💻Front end: </li>
     <ul>
     <li>Every thing is desinged by hand by us. </li>
      <li>The images are free(licensed) from https://www.vecteezy.com/ , https://www.freepik.com/ , https://www.pexels.com/license/ , https://unsplash.com/.</li>
@@ -34,4 +38,7 @@
        <li>The icons are provided by https://fontawesome.com.</li>
       </ul>
     <hr/>
+    
+    ## 📄 Documentation
+      https://github.com/AIKostov20/POSEIDON/blob/main/Poseidon.docx
       
